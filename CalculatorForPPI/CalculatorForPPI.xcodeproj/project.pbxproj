@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,8 @@
 		FF4A8BB5231BFDBE00361559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A8BB3231BFDBE00361559 /* LaunchScreen.storyboard */; };
 		FF4A8BC0231BFDBE00361559 /* CalculatorForPPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A8BBF231BFDBE00361559 /* CalculatorForPPITests.swift */; };
 		FF4A8BCB231BFDBF00361559 /* CalculatorForPPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A8BCA231BFDBF00361559 /* CalculatorForPPIUITests.swift */; };
-		FFF414FF25580330004F1379 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF414FE25580330004F1379 /* IQKeyboardManagerSwift.framework */; };
-		FFF4150025580330004F1379 /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFF414FE25580330004F1379 /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFC76079265959C900A0DF35 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC760712659265B00A0DF35 /* IQKeyboardManagerSwift.framework */; };
+		FFC7607A265959C900A0DF35 /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFC760712659265B00A0DF35 /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FFF4150125580330004F1379 /* Embed Frameworks */ = {
+		FFC7607B265959C900A0DF35 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FFF4150025580330004F1379 /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
+				FFC7607A265959C900A0DF35 /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,7 @@
 		FF4A8BC6231BFDBE00361559 /* CalculatorForPPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorForPPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A8BCA231BFDBF00361559 /* CalculatorForPPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorForPPIUITests.swift; sourceTree = "<group>"; };
 		FF4A8BCC231BFDBF00361559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFF414FE25580330004F1379 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		FFC760712659265B00A0DF35 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF414FF25580330004F1379 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				FFC76079265959C900A0DF35 /* IQKeyboardManagerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 		FFF414F72557FB60004F1379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFF414FE25580330004F1379 /* IQKeyboardManagerSwift.framework */,
+				FFC760712659265B00A0DF35 /* IQKeyboardManagerSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 				FF4A8BA3231BFDBD00361559 /* Sources */,
 				FF4A8BA4231BFDBD00361559 /* Frameworks */,
 				FF4A8BA5231BFDBD00361559 /* Resources */,
-				FFF4150125580330004F1379 /* Embed Frameworks */,
+				FFC7607B265959C900A0DF35 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +216,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "卢家涛";
 				TargetAttributes = {
 					FF4A8BA6231BFDBD00361559 = {
@@ -233,7 +233,7 @@
 				};
 			};
 			buildConfigurationList = FF4A8BA2231BFDBD00361559 /* Build configuration list for PBXProject "CalculatorForPPI" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -366,6 +366,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -391,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,6 +428,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -446,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
